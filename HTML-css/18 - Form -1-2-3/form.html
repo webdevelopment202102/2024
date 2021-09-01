@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="discription" content="wepsite">
+<title>form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+      <body>
+       <form name="register">
+	   
+	   
+	   
+	<fieldset>
+	 <legend>personal information</legend>
+	  <label> username</label>
+	    <input type="text" maxlength="10" placeholder="right your name please">
+         <br>
+	      <label>password</label>
+	        <input type="password">
+	   <br>
+	     <label>upload cv</label>
+	       <input type="file" name="file">
+	   <br>
+	     <input type="checkbox" >
+		   <label >rememper me</label>
+		     </fieldset>
+	   <br>
+	   
+	   
+	     <label>choose your browser</label>
+	      <br>
+	       <input class="old" type="radio" name="browser" value="chrome">chrome<br>
+	       <input class="old" type="radio" name="browser" value="fire">fire<br>
+	       <input class="old" type="radio" name="browser" value="opera">opera<br>
+		   
+		   
+	   <br>
+	   <input type="submit" value="sign in">
+	    <input type="button" value="register">
+	     <input type="reset" value="restore default">
+	      <input type="hidden" value="test">
+		  
+		  
+		  
+		  
+		   <select name="time" size="2" multiple >
+		   <!--سميتها وقت علشان هى ديه الى هاتروح الداتا بيز-->
+		   <!--بنختار معاد يوصل فيه السيليكت ده مثلا-->
+		   <!--والديس ده كأنك بتقوله ماتفعلش السيليكت-->
+		   <!--السايز ده بيخيليك تكبر او تصغر حجم السيليكت-->
+		   <!--multiple بيخليك تختار اكتر من عنصر-->
+		   
+		   
+		   
+		   <!--الاوبت جروب هو انك تسمى مجومعة معينة فى السيليكت -->
+		    <!--ممكن اعمل للمجموعة ديسابل--><optgroup label="near time"><!--الليبل ده تسمية المجموعة-->
+		    <option disabled>3pm</option><!--مش مفعلها-->
+			<option selected>5pm</option><!-- يعنى مختارها اوتوماتيك-->
+			<option value="7">7pm</option><!--ل=يعنى لما احط فالو يعنى تروح الداتا بيز -->
+			</optgroup>
+		     </select>
+		  
+		  
+		  <br>
+	  <label>wright your message please</label>
+	   <br>
+	     <textarea rows="5" cols="60" readonly>readonly</textarea>
+<!--i can centrol in the rows{row span} and cols{colspan}--><!--قولتله اقرا بس وماتعملش حاجة تانى يا حج انت -->
+	            
+	              
+	</form>
+  </div>
+   </body>
+ </html>
+<!--
+<label> هو تعريف ان ده حقل ادخال ويستخدم فى الفورم
+<input> عنصر مالهوش قفلة تاج
+<textarea>ليه قفلة عادى وهمو عبارة عن رسالة انت بتقدمها للسايت 
+<fieldset>ليها قفلة وهى افتتاح ديف لوحده فيه اسم المجال
+<legend> ليه قفلة وهو اسم المجال المفتتح
+<select>ليها قفلة عادى وهى انت بتختار علشان كده سموها سيليكت 
+<option>ليها قفلة عادى وهى الى جوا السيلكيت
+the kinds of input is type-password-sheckbox-submit-button-reset-image-radio-hidden
+the value is what shown it others
+
+the placeholder is that there an a sign to right what it suppose 
+وممكن كمان علشان مافيش اماكن فى بعض المواقع انك تكتب اسمك فا بيقولك فى البليس هولدر  اكتب اسمك وdelet the label about username
+maxlengh    means that you have to wright specific numpers or letters
+checkbox    is the button that says rememper me
+submit      mens button  like login
+button      means click 
+reset       like restart
+-->

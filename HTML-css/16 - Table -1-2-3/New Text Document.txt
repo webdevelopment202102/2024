@@ -1,0 +1,27 @@
+body{background:#ddd}
+div{
+background-color:#c2c2c5;
+margin:10px auto;
+width:800px;
+padding:7px;
+border:2px ridge #ddd;
+}
+p
+{word-spacing:2px;
+letter-spacing:3px;
+line-height:5px;
+text-indent:20px;
+text-decoration:under-line;
+text-transform:capitalize;
+text-align:left;
+direction:ltr
+}
+span{color:red;font-style:italic;font-weight:800;font-size:30px;font-family:Tahoma}
+a{line-height:5px}
+ul{list-style:circle outside none;}
+
+table{background:#13DB74;width:400px;border:2px dashed #red;padding:5px;margin:10px}
+caption{color:red;font-weight:bold}
+thead th{ font-weight:bold;text-align:center;color:#fff;background:#333;padding:5px}
+tfoot td {font-weight:600  ;text-align:right ;color:red ;background:#ddd;padding:10px} 
+tbody td{text-align:center;padding:3px;background:#eee}

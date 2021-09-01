@@ -1,0 +1,61 @@
+body{
+	background-color:#ddd;
+	height:3000px;
+	background-repeat:no-repeat;
+	background-size:cover;
+    margin:20px auto
+	}
+fieldset
+{background:#fff;
+width:320px;
+font-style:italic;
+font-weight:bold;
+padding:10px;
+border:2px solid #0F0D0D;
+display:block;
+margin:5px auto;
+padding:10px
+}
+
+
+
+legend
+{color:#0F0606;
+background:#fff;
+border:1px solid #ccc;
+padding:10px;
+}
+select{display:block;margin:10px;padding:0px}
+input[type="text"],input[type="password"]{padding:5px;width:300px;display:block}
+.old{padding:10px;margin:4px auto}
+textarea{
+	padding:10px;
+	width:300px;
+	height:200px
+}
+.float{
+	
+	right:100px;
+	top:23px;
+	color:#604D55
+}
+.big{width:700px;padding:10px;margin:0px auto;
+background:#B24C77;
+}
+p{font-weight:bold}
+.list{color:#eee;list-style-type:none;font-size:20px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

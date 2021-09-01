@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>model</title>
+  <link rel="stylesheet" href="model-2.css"/>
+  </head>
+  
+  
+   <body>
+			  
+		<div>	  
+	  <table border="1px">
+	  <caption>{col-span}<caption>
+	    <!--colspan take one in row and make it two-->
+	   <tr>
+		 <th colspan="2">names and adress</th>
+		 <!--<th>adress</th>-->
+		 <th>monye</th>
+	     
+		 
+	  </tr>
+	 <tr>
+      <td>esam</td>
+      <td>32 rthnb </td>
+      <td>30$</td>
+     </tr>
+	 <tr>
+      <td>nema</td>
+      <td>67vsdfgdv</td>
+      <td>20$</td>
+     </tr>
+	 <tr>
+      <td>mona</td>
+	  <td>56ybhfgb</td>
+      <td>70$</td>
+     </tr>
+	 <tr>
+      <td>nancy</td>
+	  <td>98la,c</td>
+      <td>50$</td>
+     </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div>
+  <table border="1px">
+	  <caption>{row-span}<caption>
+	    <!--rowspan take one and make it two-->
+	   <tr>
+		 <th>names</th>
+		 <th>monye</th>
+	     
+		 
+	  </tr>
+	 <tr>
+      <td>esam</td>
+      <td>30$</td>
+     </tr>
+	 <tr>
+      <td rowspan="2">mona</td>
+      <td>20$</td>
+     </tr>
+	 <tr>
+      <!--<td>mona</td>-->
+      <td>70$</td>
+     </tr>
+	 <tr>
+      <td>nancy</td>
+      <td>50$</td>
+     </tr>
+</table>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div>
+  <table border="1px">
+	  <caption>{row-span}<caption>
+	    <colgroup>
+		<col span="2" style="background:#ddd" />   
+		</colgroup>
+	    <!--rowspan take one and make it two-->
+<tr>
+		 
+	  <td>esam</td>
+      <td>30$</td>
+	  <td>esam</td>
+      <td>30$</td>
+</tr>
+	 <tr>
+	  <td>esam</td>
+      <td>30$</td>
+	  <td>esam</td>
+      <td>30$</td>
+     </tr>
+<tr>
+      
+	  <td>esam</td>
+      <td>30$</td>
+	  <td>esam</td>
+      <td>30$</td>
+</tr>
+	 <tr>
+      <td>mona</td>
+      <td>70$</td>
+	  <td>esam</td>
+      <td>30$</td>
+     
+     </tr>	
+</table>
+  </div>
+    </body>
+	  </html>
+<!--
+table-{table-tr-td-th-thead-tbody-tfoot-colspan-rowspan}
+
+
+-->
